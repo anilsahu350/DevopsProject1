@@ -1,2 +1,14 @@
-terraform_files
-.test
+# Ignore build output
+target/
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore Terraform local files
+terraform_files/.terraform/
+terraform_files/terraform.tfstate
+terraform_files/terraform.tfstate.backup
+
+
+
+*.pem
